@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="language" content="en">
+        <meta name="description" content="Free quiz for fun">
+        <meta name="author" content="Artem Suprun">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Free Random Quiz</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <div class="body">
+            <div class="main">
+                <!-- <Quiz> -->
+                <div class="quiz_template">
+                    <h2 class="question">Question</h2>
+                    <div class="questions">
+                        <label>A
+                            <button class="btn" type="button" value="a"></button>
+                        </label>
+                        <br />
+                        <label>B
+                            <button class="btn" type="button" value="b"></button>
+                        </label>
+                        <br />
+                        <label>C
+                            <button class="btn" type="button" value="c"></button>
+                        </label>
+                        <br />
+                        <label>D
+                            <button class="btn" type="button" value="d"></button>
+                        </label>
+                        <br />
+                        <button class="next" type="button" style="display:none;">NEXT</button>
+                    </div>
+                </div>
+                <!-- </Quiz> -->
+                <!-- <Results> -->
+                <div class="end" style="display:none;">
+                    <h1>You've finished the quiz!</h1>
+                    <!--<button class="resultBtn" type="button">Results</button>-->
+                    <button class="reset" type="button">Reset</button>
+                    <h2 class="results"></h2>
+                    <p class="resultText"></p>
+                </div>
+                <!-- </Results> -->
+            </div>
+        </div>
+        <script type="text/javascript" src="./script.js"></script>
+    </body>
+</html>
